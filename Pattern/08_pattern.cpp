@@ -6,12 +6,25 @@ class Solution
 public:
     void printTriangle(int n)
     {
+
+        int spaces = 0;
+        int stars = 2 * n - 1;
+
         for (int i = 1; i <= n; i++)
         {
-            for (int j = 1; j <= i; j++)
-                cout << i << " ";
+            // Loop for Spaces
+            for (int j = 1; j <= spaces; j++)
+                cout << " ";
+
+            // Loop for Stars
+            for (int j = 1; j <= stars; j++)
+                cout << "*";
 
             cout << "\n";
+
+            // Update for next line
+            spaces++;
+            stars -= 2;
         }
     }
 };

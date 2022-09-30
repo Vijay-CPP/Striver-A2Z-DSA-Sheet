@@ -1,24 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
-  public:
-    void printSquare(int n) {
-        
-        for(int i=0; i<n;i++)
+class Solution
+{
+public:
+    void printSquare(int n)
+    {
+        for (int i = 0; i < n; i++)
         {
-            for(int j=0;j<n; j++)
-                cout<<"* ";
+            for (int j = 0; j < n; j++)
+                cout << "* ";
 
-            cout<<"\n";
+            cout << "\n";
         }
     }
 };
 
-int main() {
+int main()
+{
     int t;
     cin >> t;
-    while (t--) {
+    while (t--)
+    {
         int n;
         cin >> n;
 

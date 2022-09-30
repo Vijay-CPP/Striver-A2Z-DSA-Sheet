@@ -8,8 +8,13 @@ public:
     {
         for (int i = 1; i <= n; i++)
         {
+            char startLetter = 'A' + (n - 1);
+
             for (int j = 1; j <= i; j++)
-                cout << i << " ";
+            {
+                cout << startLetter << " ";
+                startLetter--;
+            }
 
             cout << "\n";
         }

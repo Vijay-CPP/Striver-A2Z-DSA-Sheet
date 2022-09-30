@@ -6,12 +6,18 @@ class Solution
 public:
     void printTriangle(int n)
     {
+        char ch = 'A';
+
         for (int i = 1; i <= n; i++)
         {
+            // Loop & print the same letter
             for (int j = 1; j <= i; j++)
-                cout << i << " ";
+                cout << ch;
 
-            cout << "\n";
+            cout << '\n';
+
+            // Update for next line
+            ch++;
         }
     }
 };

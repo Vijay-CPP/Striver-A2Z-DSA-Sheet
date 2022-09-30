@@ -8,8 +8,15 @@ public:
     {
         for (int i = 1; i <= n; i++)
         {
+            // Starting digit
+            int digit = i % 2;
+
             for (int j = 1; j <= i; j++)
-                cout << i << " ";
+            {
+                cout << digit << " ";
+                // Alternate between 1 & 0 using bitwise AND
+                digit = !digit;
+            }
 
             cout << "\n";
         }

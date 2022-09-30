@@ -6,7 +6,6 @@ class Solution
 public:
     string armstrongNumber(int n)
     {
-
         int num = n;
         int sum = 0;
 

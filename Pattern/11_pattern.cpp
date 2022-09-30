@@ -14,7 +14,7 @@ public:
             for (int j = 1; j <= i; j++)
             {
                 cout << digit << " ";
-                // Alternate between 1 & 0 using bitwise AND
+                // Alternate between 1 & 0 using NOT operator
                 digit = !digit;
             }
 

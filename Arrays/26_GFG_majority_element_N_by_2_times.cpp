@@ -33,6 +33,7 @@ public:
                 count--;
         }
 
+        // It might not be the majority element
         for (int i = 0; i < size; i++)
             if (element == a[i])
                 count++;

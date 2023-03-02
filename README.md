@@ -7,9 +7,13 @@ This repo contains C++ codes for Striver A2Z DSA Sheet.
 - Sorting Algorithms  
 - Basic Hashing  
 - Array  
-    * Easy  
+    * Easy
+- Binary Search 
+    * Easy
 - String   
     * Easy   
+- Linked list
+    * Easy
 
 
 
